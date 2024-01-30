@@ -1,7 +1,7 @@
-import { useState, useRef } from 'react';
+import { useState,  } from 'react';
 import { Button } from 'components/Button';
 import { DecoderText } from 'components/DecoderText';
-import { Divider } from 'components/Divider';
+// import { Divider } from 'components/Divider';
 import { Heading } from 'components/Heading';
 import { Image } from 'components/Image';
 import { Link } from 'components/Link';
@@ -21,13 +21,13 @@ const ProfileText = ({ visible, titleId }) => (
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
-    <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamid, currently I live in Lahore working as a jonior Full_Stack_Developer at{'Wise College'}
-      <Link href="https://github.com/hamidamin9">Github</Link>. My projects include React, React_Native
-      Django, and python. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the website , software and Apps I
-      use check out my <Link href="/uses">uses page</Link>.
-    </Text>
+    <Text className={styles.description} size="l" as="p">
+  I’m Hamid, currently I live in Lahore working as a jonior Full_Stack_Developer at{'Wise College'}
+  <Link href="https://github.com/hamidamin9">Github</Link>. My projects include React, React_Native
+  Django, and python. Being comfortable with code allows me to rapidly
+  prototype and validate experiences. If you&rsquo;re interested in the website , software and Apps I
+  use check out my <Link href="/uses">uses page</Link>.
+</Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       In my spare time I like to practice Cricket, play video games, and{' '}
       make mods. I’m always down for hearing

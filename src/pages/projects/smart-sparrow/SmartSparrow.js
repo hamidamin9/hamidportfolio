@@ -25,24 +25,24 @@ import imageSprLessonBuilderLight from 'assets/lms.png';
 import videoSprMotionLarge from 'assets/spr-motion-large.mp4';
 import videoSprMotionPlaceholder from 'assets/lms.png';
 import videoSprMotion from 'assets/lms_damo.mp4';
-import imageSprSchema1DarkLarge from 'assets/spr-schema-1-dark-large.png';
-import imageSprSchema1DarkPlaceholder from 'assets/spr-schema-1-dark-placeholder.png';
-import imageSprSchema1Dark from 'assets/spr-schema-1-dark.png';
-import imageSprSchema1LightLarge from 'assets/spr-schema-1-light-large.png';
-import imageSprSchema1LightPlaceholder from 'assets/spr-schema-1-light-placeholder.png';
-import imageSprSchema1Light from 'assets/spr-schema-1-light.png';
-import imageSprSchema2DarkLarge from 'assets/spr-schema-2-dark-large.png';
-import imageSprSchema2DarkPlaceholder from 'assets/spr-schema-2-dark-placeholder.png';
-import imageSprSchema2Dark from 'assets/spr-schema-2-dark.png';
-import imageSprSchema2LightLarge from 'assets/spr-schema-2-light-large.png';
-import imageSprSchema2LightPlaceholder from 'assets/spr-schema-2-light-placeholder.png';
-import imageSprSchema2Light from 'assets/spr-schema-2-light.png';
-import imageSprStoryboarderDarkLarge from 'assets/spr-storyboarder-dark-large.png';
-import imageSprStoryboarderDarkPlaceholder from 'assets/spr-storyboarder-dark-placeholder.png';
-import imageSprStoryboarderDark from 'assets/lms_asmnt.PNG';
-import imageSprStoryboarderLightLarge from 'assets/lms_asmnt.PNG';
-import imageSprStoryboarderLightPlaceholder from 'assets/spr-storyboarder-light-placeholder.png';
-import imageSprStoryboarderLight from 'assets/lms_asmnt.PNG';
+// import imageSprSchema1DarkLarge from 'assets/spr-schema-1-dark-large.png';
+// import imageSprSchema1DarkPlaceholder from 'assets/spr-schema-1-dark-placeholder.png';
+// import imageSprSchema1Dark from 'assets/spr-schema-1-dark.png';
+// import imageSprSchema1LightLarge from 'assets/spr-schema-1-light-large.png';
+// import imageSprSchema1LightPlaceholder from 'assets/spr-schema-1-light-placeholder.png';
+// import imageSprSchema1Light from 'assets/spr-schema-1-light.png';
+// import imageSprSchema2DarkLarge from 'assets/spr-schema-2-dark-large.png';
+// import imageSprSchema2DarkPlaceholder from 'assets/spr-schema-2-dark-placeholder.png';
+// import imageSprSchema2Dark from 'assets/spr-schema-2-dark.png';
+// import imageSprSchema2LightLarge from 'assets/spr-schema-2-light-large.png';
+// import imageSprSchema2LightPlaceholder from 'assets/spr-schema-2-light-placeholder.png';
+// import imageSprSchema2Light from 'assets/spr-schema-2-light.png';
+// import imageSprStoryboarderDarkLarge from 'assets/spr-storyboarder-dark-large.png';
+// import imageSprStoryboarderDarkPlaceholder from 'assets/spr-storyboarder-dark-placeholder.png';
+// import imageSprStoryboarderDark from 'assets/lms_asmnt.PNG';
+// import imageSprStoryboarderLightLarge from 'assets/lms_asmnt.PNG';
+// import imageSprStoryboarderLightPlaceholder from 'assets/spr-storyboarder-light-placeholder.png';
+// import imageSprStoryboarderLight from 'assets/lms_asmnt.PNG';
 import { Footer } from 'components/Footer';
 import { Image } from 'components/Image';
 import { Link } from 'components/Link';
@@ -131,9 +131,9 @@ export const SmartSparrow = () => {
           <ProjectTextRow>
             <ProjectSectionHeading>LMS</ProjectSectionHeading>
             <ProjectSectionText>
-              I
-      In 2024, Smart Sparrow embarked on a project to develop a brand-new platform from scratch, aiming to be the premier tool for educators in crafting online learning experiences. The previous platform, constructed using Flash technology, posed numerous user experience challenges. Transitioning the platform to JavaScript required addressing these issues while ensuring seamless functionality. The project's key objectives included enhancing collaboration among users, simplifying the platform for newcomers, and ensuring scalability to accommodate advanced users' needs..
-            </ProjectSectionText>
+  In 2024, Smart Sparrow embarked on a project to develop a brand-new platform from scratch, aiming to be the premier tool for educators in crafting online learning experiences. The previous platform, constructed using Flash technology, posed numerous user experience challenges. Transitioning the platform to JavaScript required addressing these issues while ensuring seamless functionality. The project&apos;s key objectives included enhancing collaboration among users, simplifying the platform for newcomers, and ensuring scalability to accommodate advanced users&apos; needs.
+</ProjectSectionText>
+
           </ProjectTextRow>
         </ProjectSection>
         <ProjectSection light={isDark}>
